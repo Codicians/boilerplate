@@ -2,6 +2,11 @@
 
 namespace Boilerplate;
 
+/**
+ * Interface of the main class
+ * 
+ * @package Boilerplate
+ */
 interface BoilerplateInterface
 {
 	/**
@@ -12,7 +17,7 @@ interface BoilerplateInterface
 	public function setup();
 
 	/**
-	 * Setup the template
+	 * Sets up theme defaults and registers support for various WordPress features
 	 *
 	 * @return void
 	 */

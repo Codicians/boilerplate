@@ -42,7 +42,7 @@ class Boilerplate implements BoilerplateInterface {
 	 * @param string $name
 	 * @param array $params
 	 * 
-	 * @since 1.0.0
+	 * @since 0.1.0
 	 * 
 	 * @return void
 	 */
@@ -72,10 +72,7 @@ class Boilerplate implements BoilerplateInterface {
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features
 	 *
-	 * It is important to set up these functions before the init hook so that none of these
-	 * features are lost.
-	 *
-	 * @since 1.0.0
+	 * @since 0.1.0
 	 * 
 	 * @return void
 	 */
@@ -104,7 +101,7 @@ class Boilerplate implements BoilerplateInterface {
 	/**
 	 * Setup WordPress hooks for adding 
 	 *
-	 * @since 1.0.0
+	 * @since 0.1.0
 	 * 
 	 * @return void
 	 */
@@ -116,6 +113,8 @@ class Boilerplate implements BoilerplateInterface {
 	/**
 	 * Add a menu to the instance
 	 *
+	 * @since 0.1.0
+	 * 
 	 * @param mixed $id
 	 * @param mixed $text
 	 * 
@@ -129,6 +128,8 @@ class Boilerplate implements BoilerplateInterface {
 	/**
 	 * Add an array of support features to the instance
 	 *
+	 * @since 0.1.0
+	 * 
 	 * @param array $support
 	 * @return void
 	 */
@@ -140,6 +141,8 @@ class Boilerplate implements BoilerplateInterface {
 	/**
 	 * Add an array of sidebars to the instance
 	 *
+	 * @since 0.1.0
+	 * 
 	 * @param array $sidebar
 	 * 
 	 * @return void
@@ -152,6 +155,8 @@ class Boilerplate implements BoilerplateInterface {
 	/**
 	 * Add an array of formats to the instance
 	 *
+	 * @since 0.1.0
+	 * 
 	 * @param array $formats
 	 * 
 	 * @return void
