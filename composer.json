@@ -1,0 +1,13 @@
+{
+    "name": "codicians/boilerplate",
+    "description": "A simple and extensible framework for WordPress templates",
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "D8vjork",
+            "email": "d8vjork@outlook.com"
+        }
+    ],
+    "require": {}
+}
